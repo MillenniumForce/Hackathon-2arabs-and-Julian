@@ -144,6 +144,7 @@ def remove_patient():
 # Function handles all server, socket, and threading
 # Will call local host waiting for a connection until client.py is executed
 # In built functionality includes either sending a message instantly, or a delayed message using threading
+#! NOTE!! If you close the program while a scheduled message is still running/waiting. The process will be cancelled
 # Cooldown is needed if user tries to run the server to quickly after prior usage
 def call_client(user_input):
     host = 'localhost'
