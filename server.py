@@ -17,23 +17,22 @@ def main():
     print("[*] 5 Send scheduled reminder to patients")
     print("[*] 6 Exit")
 
-    #get_input()
-    add_patient()
-    #call_client()
-
-def get_input():
-    try:        
-        option = int(input("> "))
-        if option not in range(1, 7):
-            print("[*] Please enter a number from 1 to 5")  
-            get_input()
-    except ValueError:
-        print("[*] Please enter Integers only")
-        get_input()
-    except KeyboardInterrupt:
-        print("\n[*] Exiting")
-        sys.exit(1)
-    return option
+	while True:
+    	try:
+        	user_input = int(input("> "))
+        	if user_input > 6 or user_input < 0:
+            	raise TypeError
+    	except TypeError:
+        	print("Please enter a value from 1 to 5\n")
+        	continue
+    	except ValueError:
+        	print("Please enter an integer\n")
+        	continue
+    	except KeyboardInterrupt:
+        	print("[*] Disconnecting")
+            sys.exit(1)
+    	else:
+        	break
 
 def add_patient():
     name = str(input("Name: "))
