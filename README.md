@@ -16,3 +16,13 @@ How it works: The product utilises a server-client based environment between a p
   'Send reminder to patient' will send a reminder to a specific at the current time
   'Send scheduled reminder to patient' will send a periodic reminder to a patient at a specified time.
   'Exit' will exit the program.
+
+
+References
+Liu, X., Lewis, J. J., Zhang, H., Lu, W., Zhang, S., Zheng, G., . . . Fielding, K. L. (2015). Effectiveness of Electronic Reminders to Improve Medication Adherence in Tuberculosis Patients: A Cluster-Randomised Trial. PLOS Medicine, 12(9), e1001876. doi:10.1371/journal.pmed.1001876
+
+Mohammed, S., Glennerster, R., & Khan, A. J. (2016). Impact of a Daily SMS Medication Reminder System on Tuberculosis Treatment Outcomes: A Randomized Controlled Trial. PloS one, 11(11), e0162944-e0162944. doi:10.1371/journal.pone.0162944
+
+Vervloet, M., Linn, A. J., van Weert, J. C. M., de Bakker, D. H., Bouvy, M. L., & van Dijk, L. (2012). The effectiveness of interventions using electronic reminders to improve adherence to chronic medication: a systematic review of the literature. Journal of the American Medical Informatics Association, 19(5), 696-704. doi:10.1136/amiajnl-2011-000748
+
+Vervloet, M., van Dijk, L., Santen-Reestman, J., van Vlijmen, B., van Wingerden, P., Bouvy, M. L., & de Bakker, D. H. (2012). SMS reminders improve adherence to oral medication in type 2 diabetes patients who are real time electronically monitored. International Journal of Medical Informatics, 81(9), 594-604. doi:https://doi.org/10.1016/j.ijmedinf.2012.05.005
