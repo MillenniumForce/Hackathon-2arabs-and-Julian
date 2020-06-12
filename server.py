@@ -49,13 +49,15 @@ def show_patient():
     print(df)
 
 def add_patient():
-    name = str(input("Name: "))
+    first_name = str(input("First Name: "))
+    last_name = str(input("Surname: "))
     location = str(input("Location: "))
     prescription = str(input("Prescription: "))
     time = str(input("Dose Time: "))
     dose_size = int(input("Dose size: "))
 
     data = {'Name': [name],
+        'Surname': [last_name],
         'Location': [location],
        	'Prescription': [prescription],
        	'Time': [time],
