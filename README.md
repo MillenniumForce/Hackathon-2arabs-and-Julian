@@ -1,6 +1,6 @@
 # Deloitte Hackathon: MedConnect
 Quick ReadMe:
-MEDCONNECT was created by Julian Garratt, Aimen Hamed, and Hossion Ali. To run the program use 'python3 server.py'. 
+MEDCONNECT was created by Julian Garratt, Aimen Hamed, and Hossion Ali. To run the main program use 'python3 server.py'. 
 If 4 or 5 is used while the program is running you should be prompted with '[*] Waiting to connect to patient'.
 At this point run 'python3 client.py' on a seperate terminal. You should then recieve 'Got connection from ...'
 Any issues or bugs please contact Julian Garratt.
