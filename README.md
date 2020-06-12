@@ -19,6 +19,7 @@ How it works: The product utilises a server-client based environment between a p
 
 
 References
+
 Liu, X., Lewis, J. J., Zhang, H., Lu, W., Zhang, S., Zheng, G., . . . Fielding, K. L. (2015). Effectiveness of Electronic Reminders to Improve Medication Adherence in Tuberculosis Patients: A Cluster-Randomised Trial. PLOS Medicine, 12(9), e1001876. doi:10.1371/journal.pmed.1001876
 
 Mohammed, S., Glennerster, R., & Khan, A. J. (2016). Impact of a Daily SMS Medication Reminder System on Tuberculosis Treatment Outcomes: A Randomized Controlled Trial. PloS one, 11(11), e0162944-e0162944. doi:10.1371/journal.pone.0162944
