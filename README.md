@@ -5,7 +5,7 @@ If 4 or 5 is used while the program is running you should be prompted with '[*] 
 At this point run 'python3 client.py' on a seperate terminal. You should then recieve 'Got connection from ...'.
 Any issues or bugs please contact Julian Garratt.
 
-Note: pandas is an external library please download via 'python3 -m pip pandas'
+Note: pandas is an external library please download via 'python3 -m pip install pandas'
 
 Outline: 
   The purpose of this project is to provide quick and direct medical access to people who may live far away from hospitals or HPs,
