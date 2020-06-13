@@ -7,6 +7,7 @@ import socket
 
 # Create a new socket and bind it to the local host under port  10 000, any other port can be used
 # make sure the new port if changed is above 1023 on both programs (0 to 1023 is restricted)
+# Program can also connect to other computers, however, for the purposes of testing, localhost is preferred.
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = 'localhost'
 port = 10000
