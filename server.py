@@ -72,7 +72,7 @@ def add_patient():
         location = str(input("[*] Location: "))
         prescription = str(input("[*] Prescription: "))
         time = str(input("[*] Dose Time: "))
-        dose_frequency = int(input("[*] Dose Frequency (mg): "))
+        dose_size = int(input("[*] Dose Size (mg): "))
     except KeyboardInterrupt:
         return
     except EOFError:
@@ -86,7 +86,7 @@ def add_patient():
         'Location': [location],
        	'Prescription': [prescription],
        	'Time': [time],
-       	'Dose Frequency (mg)': [dose_frequency]}
+       	'Dose Size (mg)': [dose_size]}
     
     # Special case where the csv file might not even exist. In that case create a new file instead of appending
     try:
@@ -166,6 +166,7 @@ def call_client(user_input):
             conn.send(msg.encode('ascii'))
             conn.close()
         elif (user_input == 5):
+            print("[*] Warning: Closing the server will interupt the scheduled message")
             time_sec = int(input("Enter seconds: "))
             time_min = int(input("Enter minutes: ")) * 60
             time_hours = int(input("Enter hours: ")) * 3600
