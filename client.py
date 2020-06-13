@@ -22,5 +22,5 @@ except socket.timeout:
     print("[*] No connection between client and server or took too long to connect")
     s.close()
 except ConnectionRefusedError:
-    print("[*] Please run server first in 'server.py' file. \n[*]See ReadMe for further implementation")
+    print("[*] Please run server first in 'server.py' file. \n[*] See ReadMe for further implementation")
     s.close()
